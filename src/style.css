@@ -1,0 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    all: unset;
+    display: revert;
+    cursor: revert;
+    box-sizing: border-box;
+  }
+  
+  img {
+    max-width: 100%;
+  }
+  
+  body {
+    min-height: 100vh;
+    line-height: 1.6;
+  }
+
+
+h1,  h2{
+    font-family: 'JUST ME AGAIN DOWN HERE', sans-serif;
+    
+  }
+h3, a{
+    font-family: 'CABIN', sans-serif;
+
+
+  }
+  p{
+    font-family: 'LIBRE BASKERVILLE', sans-serif;
+    max-width: 65ch;
+    line-height: 1.6;
+  }
+  
+  h1 {
+    font-size: 
+    9.969rem;
+  }
+  
+  h2 {font-size: 5.61rem;}
+  
+  h3 {font-size: 2.369rem;}
+  
+  h4 {font-size: 1.777rem;}
+  
+  h5 {font-size: 1.333rem;}
+  
+  small, .text_small {font-size: 0.75rem;}
+
+
+.menuItem {
+    display: block;
+  }
+
+  .menu_toggle_btn {
+ 
+    z-index: 100;
+    cursor: pointer;
+  }
+
+  .closeIcon {
+    display: none;
+  }
+
+  .CV {
+    position: fixed;
+    transform: translateY(-100%);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 99;
+  }
+
+  .showMenu {
+    transform: translateY(0);
+  }
